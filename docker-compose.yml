@@ -1,0 +1,8 @@
+version : "3"
+services:
+  springboot-app:
+   image: springbootapp1
+   build: .
+   ports:
+   - :8080
+   #scale: 3
