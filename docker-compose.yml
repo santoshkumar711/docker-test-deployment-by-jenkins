@@ -5,4 +5,4 @@ services:
    build: .
    ports:
    - :8080
-   #scale: 3
+   scale: 3
